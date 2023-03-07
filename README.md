@@ -61,18 +61,6 @@ In this project, I have made an effort to follow the SOLID principles to ensure 
 5. Dependency Inversion Principle (DIP): The application follows the DIP by using abstractions to reduce dependencies between components, making the code more flexible and easier to maintain.
 
 
-
-## Usage/Examples
-
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
-```
-
-
 ## Installation
 To run the application, follow these steps:
 
