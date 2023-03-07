@@ -24,7 +24,7 @@ export default function CountrySelect(): JSX.Element {
   }
 
   useEffect(() => {
-    if (debounceSearch) getCityName(`http://api.openweathermap.org/geo/1.0/direct?q=${debounceSearch}&limit=6&appid=bf61b030754834fa8e3c8117aa809318`)
+    if (debounceSearch) getCityName(`https://api.openweathermap.org/geo/1.0/direct?q=${debounceSearch}&limit=6&appid=bf61b030754834fa8e3c8117aa809318`)
   
   }, [debounceSearch])
 
