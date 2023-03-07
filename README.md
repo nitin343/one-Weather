@@ -34,7 +34,7 @@ src/
 
  hooks/         # Contains all custom hooks 
 
- redux/         # Contains Redux store, actions, and reducers
+ redux/         # Contains Redux store and reducers
  
  styles/        # Contains global styles-component
  
