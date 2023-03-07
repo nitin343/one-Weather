@@ -74,6 +74,9 @@ Create a .env file at the root of the project and add your API key as REACT_APP_
 
 Run the application using npm start.
 
+## Demo
+
+https://one-weather-phi.vercel.app/
     
 ## Appreciation
 
