@@ -50,7 +50,7 @@ export const ForeCast = () => {
                             </div>
                         </div>
                         :
-                        <div className='text-[30px] text-zinc-500 justify-center items-center'>
+                        <div className='text-[30px] xl:w-[95vw] xl:h-[45vh]  text-zinc-500 justify-center items-center flex flex-col justify-center items-center'>
                          <img className='h-[160px] md:h-[80px]' src={dullCloud} alt='cloud' />
                          <div className='mt-10'> Search For Location </div>
                         </div>
