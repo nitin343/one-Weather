@@ -69,7 +69,7 @@ export default function CountrySelect(): JSX.Element {
       <div className='flex mt-10 lg:mt-4 ' >
         <input
           type='text'
-          className="px-2 py-1 rounded-1-md border-2 border-black"
+          className="px-2 py-1 rounded-1-md border-2 md:w-[80%] border-black"
           onChange={handleSearch}
           placeholder='search your city...'
           value={input}
@@ -92,7 +92,7 @@ export default function CountrySelect(): JSX.Element {
           }
         </button>
       </div>
-      {autocomplete ? <ul className=' w-[98%] xl:w-[85%] h-auto z-50 !mt-0 bg-white !justify-start !items-start  ` ml-0 border-2  border-pink-100 rounded-b-md'>
+      {autocomplete ? <ul className='md:!w-[100%] w-[98%] lg:w-[43%] xl:w-[85%] h-auto z-50 !mt-0 bg-white !justify-start !items-start  ` ml-0 border-2  border-pink-100 rounded-b-md'>
         {citys && citys.map((city: optionType, index) =>
         (
           <li key={city.name + '_' + index}>
