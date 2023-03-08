@@ -92,7 +92,7 @@ export default function CountrySelect(): JSX.Element {
           }
         </button>
       </div>
-      {autocomplete ? <ul className='md:!w-[100%] w-[98%] lg:w-[43%] xl:w-[85%] h-auto z-50 !mt-0 bg-white !justify-start !items-start  ` ml-0 border-2  border-pink-100 rounded-b-md'>
+      {autocomplete ? <ul className='md:!w-[100%] w-[98%] lg:w-[43%] h-auto z-50 !mt-0 bg-white !justify-start !items-start  ` ml-0 border-2  border-pink-100 rounded-b-md'>
         {citys && citys.map((city: optionType, index) =>
         (
           <li key={city.name + '_' + index}>
