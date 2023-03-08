@@ -36,8 +36,7 @@ export const ForecastContainer = styled.div`
   align-items: center;
   justify-content: center;
   @media only screen and (min-width: 280px) and (max-width: 1280px) {
-    width: 100vw;
-    padding: 10px;
+    padding: 06px;
     align-items: flex-start;
     justify-content: flex-start;
    background-color: #d6d7da;
